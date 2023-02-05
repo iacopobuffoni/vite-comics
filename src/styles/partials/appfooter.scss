@@ -1,7 +1,7 @@
 main {
     height: 350px;
     width: 100%;
-    background-color: aqua;
+    background-image: url('/src/assets/img/footer-bg.jpg');
 
 
     .footer-container {
@@ -21,6 +21,10 @@ main {
 
             .footer-nav-section {
 
+                h3 {
+                    color: white;
+                }
+
                 ul {
 
                     margin: 15px 0;
@@ -28,7 +32,16 @@ main {
                     
                     li {
                         list-style: none;
-                        margin: 2px 0 2px 0;
+                        margin: 3px 0 3px 0;
+                        
+                        a {
+                            text-decoration: none;
+                            color: #959595;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
                     }
                     
                 }
@@ -38,7 +51,6 @@ main {
         .logo-container {
             width: 40%;
             height: 100%;
-            background-color: antiquewhite;
             overflow: hidden;
 
             img {
