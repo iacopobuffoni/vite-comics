@@ -1,6 +1,7 @@
 <script>
 export default {
     name: 'AppHeader',
+
 }
 </script>
 
@@ -69,9 +70,6 @@ export default {
             </div>
         </div>
     </header>
-    <footer>
-        
-    </footer>
 </template>
 
 <style lang="scss" scoped>
